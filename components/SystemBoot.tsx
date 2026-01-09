@@ -226,7 +226,7 @@ export const SystemBoot: React.FC<SystemBootProps> = ({ onComplete }) => {
          <div className="space-y-1.5 border-l border-zinc-900 pl-4">
            {logs.map((log, i) => (
              <div key={i} className="text-[9px] md:text-[10px] font-mono text-zinc-500 animate-in slide-in-from-left-4 duration-500">
-               <span className="text-zinc-800 mr-1.5 md:mr-2">>></span> {log}
+               <span className="text-zinc-800 mr-1.5 md:mr-2">{">>"}</span> {log}
              </div>
            ))}
          </div>
